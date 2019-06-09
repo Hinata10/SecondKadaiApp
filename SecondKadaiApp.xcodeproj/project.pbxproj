@@ -14,6 +14,7 @@
 		AC04B97722AC255B00D08EC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC04B97522AC255B00D08EC9 /* LaunchScreen.storyboard */; };
 		AC04B98222AC255B00D08EC9 /* SecondKadaiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04B98122AC255B00D08EC9 /* SecondKadaiAppTests.swift */; };
 		AC04B98D22AC255B00D08EC9 /* SecondKadaiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04B98C22AC255B00D08EC9 /* SecondKadaiAppUITests.swift */; };
+		AC04B99D22AC2AB200D08EC9 /* nextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04B99C22AC2AB200D08EC9 /* nextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AC04B98822AC255B00D08EC9 /* SecondKadaiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondKadaiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC04B98C22AC255B00D08EC9 /* SecondKadaiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondKadaiAppUITests.swift; sourceTree = "<group>"; };
 		AC04B98E22AC255B00D08EC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC04B99C22AC2AB200D08EC9 /* nextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				AC04B97322AC255B00D08EC9 /* Assets.xcassets */,
 				AC04B97522AC255B00D08EC9 /* LaunchScreen.storyboard */,
 				AC04B97822AC255B00D08EC9 /* Info.plist */,
+				AC04B99C22AC2AB200D08EC9 /* nextViewController.swift */,
 			);
 			path = SecondKadaiApp;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC04B99D22AC2AB200D08EC9 /* nextViewController.swift in Sources */,
 				AC04B96F22AC255A00D08EC9 /* ViewController.swift in Sources */,
 				AC04B96D22AC255A00D08EC9 /* AppDelegate.swift in Sources */,
 			);
